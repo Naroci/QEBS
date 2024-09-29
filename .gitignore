@@ -1,0 +1,6 @@
+
+QEBS.Base/obj/*
+QEBS.Base/bin/*
+QEBS.Test/obj/*
+QEBS.Test/bin/*
+.idea

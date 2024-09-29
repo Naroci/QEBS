@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/naroci/GitHub/QEBS/QEBS/QEBS.Base/QEBS.Base.csproj": {}
+    "/home/naroci/GitHub/QEBS/QEBS.Base/QEBS.Base.csproj": {}
   },
   "projects": {
-    "/home/naroci/GitHub/QEBS/QEBS/QEBS.Base/QEBS.Base.csproj": {
+    "/home/naroci/GitHub/QEBS/QEBS.Base/QEBS.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/naroci/GitHub/QEBS/QEBS/QEBS.Base/QEBS.Base.csproj",
+        "projectUniqueName": "/home/naroci/GitHub/QEBS/QEBS.Base/QEBS.Base.csproj",
         "projectName": "QEBS.Base",
-        "projectPath": "/home/naroci/GitHub/QEBS/QEBS/QEBS.Base/QEBS.Base.csproj",
+        "projectPath": "/home/naroci/GitHub/QEBS/QEBS.Base/QEBS.Base.csproj",
         "packagesPath": "/home/naroci/.nuget/packages/",
-        "outputPath": "/home/naroci/GitHub/QEBS/QEBS/QEBS.Base/obj/",
+        "outputPath": "/home/naroci/GitHub/QEBS/QEBS.Base/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/home/naroci/.local/share/godot/mono/GodotNuGetFallbackFolder"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
