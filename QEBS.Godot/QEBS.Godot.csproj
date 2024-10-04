@@ -1,0 +1,20 @@
+
+  <Project Sdk="Godot.NET.Sdk/3.3.0">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+   
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+  
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="../ServerMain/db/db_cards_default.json" Link="data_server/db/db_cards_default.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

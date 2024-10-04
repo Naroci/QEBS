@@ -4,3 +4,5 @@ QEBS.Base/bin/*
 QEBS.Test/obj/*
 QEBS.Test/bin/*
 .idea
+/.mono
+/QEBS.Base/obj
